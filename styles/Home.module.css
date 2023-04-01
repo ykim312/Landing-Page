@@ -1,0 +1,185 @@
+.maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem;
+  min-height: 100vh;
+  max-width: 1400px;
+  font-family: '210 TriggerOTF', sans-serif;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.joyceimg {
+  position: absolute;
+  right: 200px;
+  bottom: -80px;
+}
+
+.header > h1 {
+  font-size: 8vw;
+  padding: 50px;
+}
+
+.joyce {
+  margin-right: 220px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #541a93 29%,
+    #13d8ff 67%,
+    #e3e2b5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 160px;
+}
+
+.kim {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #541a93 29%,
+    #13d8ff 67%,
+    #e3e2b5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 160px;
+}
+
+.uxui {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.h3 {
+  font-size: 50px;
+  color: #5F40C9;
+  font-weight: 100;
+}
+
+.wool {
+  position: absolute;
+  bottom: -320px;
+}
+
+.paragraph {
+  margin-top: 120px;
+  font-size: 18px;
+  line-height: 2.0;
+  text-align: center;
+  color: rgb(97, 97, 97);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.linebtn {
+  padding: 20px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border: solid 4px #5F40C9;
+  border-radius: 14px;
+  color: #5F40C9;
+  margin: 10px;
+}
+
+.linebtn:hover {
+  padding: 20px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border: solid 4px #5F40C9;
+  border-radius: 14px;
+  color: #5F40C9;
+  margin: 10px;
+  background-color: #d6fcff;
+}
+
+.purplebtn {
+  padding: 20px 20px;
+  background-color: #5F40C9;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 14px;
+  border: solid 4px #5F40C9;
+  color: #fff;
+  margin: 10px;
+}
+
+.purplebtn:hover {
+  padding: 20px 20px;
+  background-color: #5438b2;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 14px;
+  border: solid 4px #5438b2;
+  color: #fff;
+  margin: 10px;
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
